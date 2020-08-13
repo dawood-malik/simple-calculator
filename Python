@@ -1,0 +1,15 @@
+print("SIMPLE CALCULATOR\n")
+print("Enter the two values\n")
+a=int(input(": "))
+b=int(input(": "))
+print("enter the operation\n")
+print("'add' for addition\n")
+print("'sub' for substraction\n")
+print("'div' for division\n")
+opera=input(": ")
+if opera=="add":
+	print(a+b)
+elif opera=="sub":
+    print(a-b)
+elif opera=="div":
+    print(a/b)
