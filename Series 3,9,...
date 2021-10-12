@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main()
+{ int sum=3,tan=1,n,j;
+    printf("Enter the length of series\n");
+    scanf("%d",&n);
+    printf("Series as follows\n");
+    for(j=0;j<n;j++)
+    {
+    
+    tan=sum*tan;
+    printf("%d ",tan);
+    
+    }
+}
